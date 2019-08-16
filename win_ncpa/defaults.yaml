@@ -1,0 +1,4 @@
+win_ncpa:
+  config: 'C:\Program Files (x86)\Nagios\NCPA\etc\ncpa.cfg'
+  allowed_hosts: 10.130.0.0/16
+  community_string: 6f9dsa69783yui3yh2u1o

@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-                                                                                             
+# vim: ft=yaml
+#
+# Setup variables using grains['os_family'] based logic.
+# You just need to add the key:values for an `os_family` that differ
+# from `defaults.yaml`.
+# Only add an `os_family` which is/will be supported by the formula
+# (empty `os_family`s do not need to be listed, just added here as an example).
+---
+Windows: 
+  path: C:\salt\srv\salt\win_ncpa\win_ncpa\files\default\ncpa-2.1.8.exe
